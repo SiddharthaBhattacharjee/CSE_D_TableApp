@@ -7,4 +7,178 @@
     android:background="@drawable/bg"
     tools:context=".MainActivity3">
 
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="356dp"
+        android:layout_height="626dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp">
+
+            <ImageButton
+                android:id="@+id/backbtn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:backgroundTint="@color/design_default_color_error"
+                app:srcCompat="@android:drawable/ic_media_rew" />
+
+            <TextView
+                android:id="@+id/dayview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal"
+                android:fontFamily="@font/aclonica"
+                android:text="TUESDAY"
+                android:textColor="@color/design_default_color_error"
+                android:textSize="24sp" />
+
+            <ImageButton
+                android:id="@+id/forwbtn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:backgroundTint="@color/design_default_color_error"
+                app:srcCompat="@android:drawable/ic_media_ff" />
+        </FrameLayout>
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="20dp"
+            android:background="?android:attr/listDivider" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dayview20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center"
+            android:text="BREAKFAST"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="24sp" />
+
+        <View
+            android:id="@+id/divider13"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/bfmeal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/divider_horizontal_dim_dark"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/acme"
+            android:text="Item 1, Item 2 , Side dish 1 , Side dish 2, snack 1 , snack 2, drink 1, drink 2"
+            android:textColor="@color/black"
+            android:textSize="26dp" />
+
+        <TextView
+            android:id="@+id/dayview21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center"
+            android:text="LUNCH"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="24sp" />
+
+        <View
+            android:id="@+id/divider14"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/lmeal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/divider_horizontal_dim_dark"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/acme"
+            android:text="Item 1, Item 2 , Side dish 1 , Side dish 2, snack 1 , snack 2, drink 1, drink 2"
+            android:textColor="@color/black"
+            android:textSize="26dp" />
+
+        <TextView
+            android:id="@+id/dayview22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center"
+            android:text="SNACKS"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="24sp" />
+
+        <View
+            android:id="@+id/divider15"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/smeal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/divider_horizontal_dim_dark"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/acme"
+            android:text="Item 1, Item 2 , Side dish 1 , Side dish 2, snack 1 , snack 2, drink 1, drink 2"
+            android:textColor="@color/black"
+            android:textSize="26dp" />
+
+        <TextView
+            android:id="@+id/dayview23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center"
+            android:text="DINNER"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="24sp" />
+
+        <View
+            android:id="@+id/divider16"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/dmeal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/divider_horizontal_dim_dark"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/acme"
+            android:text="Item 1, Item 2 , Side dish 1 , Side dish 2, snack 1 , snack 2, drink 1, drink 2"
+            android:textColor="@color/black"
+            android:textSize="26dp" />
+    </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
