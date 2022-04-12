@@ -115,62 +115,114 @@ public class MainActivity2 extends AppCompatActivity {
         if(t>=480){
             Drawable TBDrawable = r1. getBackground();
             TBDrawable = DrawableCompat. wrap(TBDrawable);
-            DrawableCompat. setTint(TBDrawable, getResources().getColor(R.color.white));
+            DrawableCompat. setTint(TBDrawable, getResources().getColor(R.color.hPurple));
             r1. setBackground(TBDrawable);
         }
         if(t>=530){
             Drawable TBDrawable = r2. getBackground();
             TBDrawable = DrawableCompat. wrap(TBDrawable);
-            DrawableCompat. setTint(TBDrawable, getResources().getColor(R.color.white));
+            DrawableCompat. setTint(TBDrawable, getResources().getColor(R.color.hPurple));
             r2. setBackground(TBDrawable);
+
+            Drawable TBDrawable2 = r1. getBackground();
+            TBDrawable2 = DrawableCompat. wrap(TBDrawable2);
+            DrawableCompat. setTint(TBDrawable2, getResources().getColor(R.color.white));
+            r1. setBackground(TBDrawable2);
         }
         if(t>=580){
             Drawable TBDrawable = r3. getBackground();
             TBDrawable = DrawableCompat. wrap(TBDrawable);
-            DrawableCompat. setTint(TBDrawable, getResources().getColor(R.color.white));
+            DrawableCompat. setTint(TBDrawable, getResources().getColor(R.color.hPurple));
             r3. setBackground(TBDrawable);
+
+            Drawable TBDrawable2 = r2. getBackground();
+            TBDrawable2 = DrawableCompat. wrap(TBDrawable2);
+            DrawableCompat. setTint(TBDrawable2, getResources().getColor(R.color.white));
+            r2. setBackground(TBDrawable2);
         }
         if(t>=590){
             Drawable TBDrawable = r4. getBackground();
             TBDrawable = DrawableCompat. wrap(TBDrawable);
-            DrawableCompat. setTint(TBDrawable, getResources().getColor(R.color.white));
+            DrawableCompat. setTint(TBDrawable, getResources().getColor(R.color.hPurple));
             r4. setBackground(TBDrawable);
+
+            Drawable TBDrawable2 = r3. getBackground();
+            TBDrawable2 = DrawableCompat. wrap(TBDrawable2);
+            DrawableCompat. setTint(TBDrawable2, getResources().getColor(R.color.white));
+            r3. setBackground(TBDrawable2);
         }
         if(t>=640){
             Drawable TBDrawable = r5. getBackground();
             TBDrawable = DrawableCompat. wrap(TBDrawable);
-            DrawableCompat. setTint(TBDrawable, getResources().getColor(R.color.white));
+            DrawableCompat. setTint(TBDrawable, getResources().getColor(R.color.hPurple));
             r5. setBackground(TBDrawable);
+
+            Drawable TBDrawable2 = r4. getBackground();
+            TBDrawable2 = DrawableCompat. wrap(TBDrawable2);
+            DrawableCompat. setTint(TBDrawable2, getResources().getColor(R.color.white));
+            r4. setBackground(TBDrawable2);
         }
         if(t>=690){
             Drawable TBDrawable = r6. getBackground();
             TBDrawable = DrawableCompat. wrap(TBDrawable);
-            DrawableCompat. setTint(TBDrawable, getResources().getColor(R.color.white));
+            DrawableCompat. setTint(TBDrawable, getResources().getColor(R.color.hPurple));
             r6. setBackground(TBDrawable);
+
+            Drawable TBDrawable2 = r5. getBackground();
+            TBDrawable2 = DrawableCompat. wrap(TBDrawable2);
+            DrawableCompat. setTint(TBDrawable2, getResources().getColor(R.color.white));
+            r5. setBackground(TBDrawable2);
         }
         if(t>=740){
             Drawable TBDrawable = r7. getBackground();
             TBDrawable = DrawableCompat. wrap(TBDrawable);
-            DrawableCompat. setTint(TBDrawable, getResources().getColor(R.color.white));
+            DrawableCompat. setTint(TBDrawable, getResources().getColor(R.color.hPurple));
             r7. setBackground(TBDrawable);
+
+            Drawable TBDrawable2 = r6. getBackground();
+            TBDrawable2 = DrawableCompat. wrap(TBDrawable2);
+            DrawableCompat. setTint(TBDrawable2, getResources().getColor(R.color.white));
+            r6. setBackground(TBDrawable2);
         }
         if(t>=790){
             Drawable TBDrawable = r8. getBackground();
             TBDrawable = DrawableCompat. wrap(TBDrawable);
-            DrawableCompat. setTint(TBDrawable, getResources().getColor(R.color.white));
+            DrawableCompat. setTint(TBDrawable, getResources().getColor(R.color.hPurple));
             r8. setBackground(TBDrawable);
+
+            Drawable TBDrawable2 = r7. getBackground();
+            TBDrawable2 = DrawableCompat. wrap(TBDrawable2);
+            DrawableCompat. setTint(TBDrawable2, getResources().getColor(R.color.white));
+            r7. setBackground(TBDrawable2);
         }
         if(t>=840){
             Drawable TBDrawable = r9. getBackground();
             TBDrawable = DrawableCompat. wrap(TBDrawable);
-            DrawableCompat. setTint(TBDrawable, getResources().getColor(R.color.white));
+            DrawableCompat. setTint(TBDrawable, getResources().getColor(R.color.hPurple));
             r9. setBackground(TBDrawable);
+
+            Drawable TBDrawable2 = r8. getBackground();
+            TBDrawable2 = DrawableCompat. wrap(TBDrawable2);
+            DrawableCompat. setTint(TBDrawable2, getResources().getColor(R.color.white));
+            r8. setBackground(TBDrawable2);
         }
         if(t>=890){
             Drawable TBDrawable = r10. getBackground();
             TBDrawable = DrawableCompat. wrap(TBDrawable);
-            DrawableCompat. setTint(TBDrawable, getResources().getColor(R.color.white));
+            DrawableCompat. setTint(TBDrawable, getResources().getColor(R.color.hPurple));
             r10. setBackground(TBDrawable);
+
+            Drawable TBDrawable2 = r9. getBackground();
+            TBDrawable2 = DrawableCompat. wrap(TBDrawable2);
+            DrawableCompat. setTint(TBDrawable2, getResources().getColor(R.color.white));
+            r9. setBackground(TBDrawable2);
+        }
+
+        if(t>=940){
+            Drawable TBDrawable2 = r10. getBackground();
+            TBDrawable2 = DrawableCompat. wrap(TBDrawable2);
+            DrawableCompat. setTint(TBDrawable2, getResources().getColor(R.color.white));
+            r10. setBackground(TBDrawable2);
         }
 
         fb.setOnClickListener(new View.OnClickListener() {
@@ -232,62 +284,114 @@ public class MainActivity2 extends AppCompatActivity {
             if(t>=480){
                 Drawable TBDrawable = r1. getBackground();
                 TBDrawable = DrawableCompat. wrap(TBDrawable);
-                DrawableCompat. setTint(TBDrawable, getResources().getColor(R.color.white));
+                DrawableCompat. setTint(TBDrawable, getResources().getColor(R.color.hPurple));
                 r1. setBackground(TBDrawable);
             }
             if(t>=530){
                 Drawable TBDrawable = r2. getBackground();
                 TBDrawable = DrawableCompat. wrap(TBDrawable);
-                DrawableCompat. setTint(TBDrawable, getResources().getColor(R.color.white));
+                DrawableCompat. setTint(TBDrawable, getResources().getColor(R.color.hPurple));
                 r2. setBackground(TBDrawable);
+
+                Drawable TBDrawable2 = r1. getBackground();
+                TBDrawable2 = DrawableCompat. wrap(TBDrawable2);
+                DrawableCompat. setTint(TBDrawable2, getResources().getColor(R.color.white));
+                r1. setBackground(TBDrawable2);
             }
             if(t>=580){
                 Drawable TBDrawable = r3. getBackground();
                 TBDrawable = DrawableCompat. wrap(TBDrawable);
-                DrawableCompat. setTint(TBDrawable, getResources().getColor(R.color.white));
+                DrawableCompat. setTint(TBDrawable, getResources().getColor(R.color.hPurple));
                 r3. setBackground(TBDrawable);
+
+                Drawable TBDrawable2 = r2. getBackground();
+                TBDrawable2 = DrawableCompat. wrap(TBDrawable2);
+                DrawableCompat. setTint(TBDrawable2, getResources().getColor(R.color.white));
+                r2. setBackground(TBDrawable2);
             }
             if(t>=590){
                 Drawable TBDrawable = r4. getBackground();
                 TBDrawable = DrawableCompat. wrap(TBDrawable);
-                DrawableCompat. setTint(TBDrawable, getResources().getColor(R.color.white));
+                DrawableCompat. setTint(TBDrawable, getResources().getColor(R.color.hPurple));
                 r4. setBackground(TBDrawable);
+
+                Drawable TBDrawable2 = r3. getBackground();
+                TBDrawable2 = DrawableCompat. wrap(TBDrawable2);
+                DrawableCompat. setTint(TBDrawable2, getResources().getColor(R.color.white));
+                r3. setBackground(TBDrawable2);
             }
             if(t>=640){
                 Drawable TBDrawable = r5. getBackground();
                 TBDrawable = DrawableCompat. wrap(TBDrawable);
-                DrawableCompat. setTint(TBDrawable, getResources().getColor(R.color.white));
+                DrawableCompat. setTint(TBDrawable, getResources().getColor(R.color.hPurple));
                 r5. setBackground(TBDrawable);
+
+                Drawable TBDrawable2 = r4. getBackground();
+                TBDrawable2 = DrawableCompat. wrap(TBDrawable2);
+                DrawableCompat. setTint(TBDrawable2, getResources().getColor(R.color.white));
+                r4. setBackground(TBDrawable2);
             }
             if(t>=690){
                 Drawable TBDrawable = r6. getBackground();
                 TBDrawable = DrawableCompat. wrap(TBDrawable);
-                DrawableCompat. setTint(TBDrawable, getResources().getColor(R.color.white));
+                DrawableCompat. setTint(TBDrawable, getResources().getColor(R.color.hPurple));
                 r6. setBackground(TBDrawable);
+
+                Drawable TBDrawable2 = r5. getBackground();
+                TBDrawable2 = DrawableCompat. wrap(TBDrawable2);
+                DrawableCompat. setTint(TBDrawable2, getResources().getColor(R.color.white));
+                r5. setBackground(TBDrawable2);
             }
             if(t>=740){
                 Drawable TBDrawable = r7. getBackground();
                 TBDrawable = DrawableCompat. wrap(TBDrawable);
-                DrawableCompat. setTint(TBDrawable, getResources().getColor(R.color.white));
+                DrawableCompat. setTint(TBDrawable, getResources().getColor(R.color.hPurple));
                 r7. setBackground(TBDrawable);
+
+                Drawable TBDrawable2 = r6. getBackground();
+                TBDrawable2 = DrawableCompat. wrap(TBDrawable2);
+                DrawableCompat. setTint(TBDrawable2, getResources().getColor(R.color.white));
+                r6. setBackground(TBDrawable2);
             }
             if(t>=790){
                 Drawable TBDrawable = r8. getBackground();
                 TBDrawable = DrawableCompat. wrap(TBDrawable);
-                DrawableCompat. setTint(TBDrawable, getResources().getColor(R.color.white));
+                DrawableCompat. setTint(TBDrawable, getResources().getColor(R.color.hPurple));
                 r8. setBackground(TBDrawable);
+
+                Drawable TBDrawable2 = r7. getBackground();
+                TBDrawable2 = DrawableCompat. wrap(TBDrawable2);
+                DrawableCompat. setTint(TBDrawable2, getResources().getColor(R.color.white));
+                r7. setBackground(TBDrawable2);
             }
             if(t>=840){
                 Drawable TBDrawable = r9. getBackground();
                 TBDrawable = DrawableCompat. wrap(TBDrawable);
-                DrawableCompat. setTint(TBDrawable, getResources().getColor(R.color.white));
+                DrawableCompat. setTint(TBDrawable, getResources().getColor(R.color.hPurple));
                 r9. setBackground(TBDrawable);
+
+                Drawable TBDrawable2 = r8. getBackground();
+                TBDrawable2 = DrawableCompat. wrap(TBDrawable2);
+                DrawableCompat. setTint(TBDrawable2, getResources().getColor(R.color.white));
+                r8. setBackground(TBDrawable2);
             }
             if(t>=890){
                 Drawable TBDrawable = r10. getBackground();
                 TBDrawable = DrawableCompat. wrap(TBDrawable);
-                DrawableCompat. setTint(TBDrawable, getResources().getColor(R.color.white));
+                DrawableCompat. setTint(TBDrawable, getResources().getColor(R.color.hPurple));
                 r10. setBackground(TBDrawable);
+
+                Drawable TBDrawable2 = r9. getBackground();
+                TBDrawable2 = DrawableCompat. wrap(TBDrawable2);
+                DrawableCompat. setTint(TBDrawable2, getResources().getColor(R.color.white));
+                r9. setBackground(TBDrawable2);
+            }
+
+            if(t>=940){
+                Drawable TBDrawable2 = r10. getBackground();
+                TBDrawable2 = DrawableCompat. wrap(TBDrawable2);
+                DrawableCompat. setTint(TBDrawable2, getResources().getColor(R.color.white));
+                r10. setBackground(TBDrawable2);
             }
 
             MainActivity2.this.mHandler.postDelayed(m_Runnable,20000);

@@ -78,6 +78,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:text="8:00 - 8:50"
+                        android:textColor="@color/black"
                         android:textSize="24sp"
                         android:textStyle="bold" />
 
@@ -89,6 +90,7 @@
                         android:layout_marginLeft="10dp"
                         android:gravity="center_vertical"
                         android:text="SUBJECT 1"
+                        android:textColor="@color/black"
                         android:textSize="24sp" />
                 </TableRow>
 
@@ -111,6 +113,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:text="8:50 - 9:40"
+                        android:textColor="@color/black"
                         android:textSize="24sp"
                         android:textStyle="bold" />
 
@@ -122,6 +125,7 @@
                         android:layout_marginLeft="10dp"
                         android:gravity="center_vertical"
                         android:text="SUBJECT 1"
+                        android:textColor="@color/black"
                         android:textSize="24sp" />
                 </TableRow>
 
@@ -144,6 +148,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:text="9:40 - 9:50"
+                        android:textColor="@color/black"
                         android:textSize="24sp"
                         android:textStyle="bold" />
 
@@ -155,6 +160,7 @@
                         android:layout_marginLeft="10dp"
                         android:gravity="center_vertical"
                         android:text="TEA BREAK"
+                        android:textColor="@color/black"
                         android:textSize="24sp"
                         android:textStyle="bold" />
                 </TableRow>
@@ -178,6 +184,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:text="9:50 - 10:40"
+                        android:textColor="@color/black"
                         android:textSize="24sp"
                         android:textStyle="bold" />
 
@@ -189,6 +196,7 @@
                         android:layout_marginLeft="10dp"
                         android:gravity="center_vertical"
                         android:text="SUBJECT 1"
+                        android:textColor="@color/black"
                         android:textSize="24sp" />
                 </TableRow>
 
@@ -212,6 +220,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:text="10:40-11:30"
+                        android:textColor="@color/black"
                         android:textSize="24sp"
                         android:textStyle="bold" />
 
@@ -223,6 +232,7 @@
                         android:layout_marginLeft="10dp"
                         android:gravity="center_vertical"
                         android:text="SUBJECT 1"
+                        android:textColor="@color/black"
                         android:textSize="24sp" />
                 </TableRow>
 
@@ -245,6 +255,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:text="11:30-12:20"
+                        android:textColor="@color/black"
                         android:textSize="24sp"
                         android:textStyle="bold" />
 
@@ -256,6 +267,7 @@
                         android:layout_marginLeft="10dp"
                         android:gravity="center_vertical"
                         android:text="LUNCH BREAK"
+                        android:textColor="@color/black"
                         android:textSize="24sp"
                         android:textStyle="bold" />
                 </TableRow>
@@ -279,6 +291,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:text="12:20-1:10"
+                        android:textColor="@color/black"
                         android:textSize="24sp"
                         android:textStyle="bold" />
 
@@ -290,6 +303,7 @@
                         android:layout_marginLeft="10dp"
                         android:gravity="center_vertical"
                         android:text="SUBJECT 1"
+                        android:textColor="@color/black"
                         android:textSize="24sp" />
                 </TableRow>
 
@@ -312,6 +326,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:text="1:10-2:00"
+                        android:textColor="@color/black"
                         android:textSize="24sp"
                         android:textStyle="bold" />
 
@@ -323,6 +338,7 @@
                         android:layout_marginLeft="10dp"
                         android:gravity="center_vertical"
                         android:text="SUBJECT 1"
+                        android:textColor="@color/black"
                         android:textSize="24sp" />
                 </TableRow>
 
@@ -345,6 +361,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:text="2:00-2:50"
+                        android:textColor="@color/black"
                         android:textSize="24sp"
                         android:textStyle="bold" />
 
@@ -356,6 +373,7 @@
                         android:layout_marginLeft="10dp"
                         android:gravity="center_vertical"
                         android:text="SUBJECT 1"
+                        android:textColor="@color/black"
                         android:textSize="24sp" />
                 </TableRow>
 
@@ -378,6 +396,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:text="2:50-3:40"
+                        android:textColor="@color/black"
                         android:textSize="24sp"
                         android:textStyle="bold" />
 
@@ -389,6 +408,7 @@
                         android:layout_marginLeft="10dp"
                         android:gravity="center_vertical"
                         android:text="SUBJECT 1"
+                        android:textColor="@color/black"
                         android:textSize="24sp" />
                 </TableRow>
 
