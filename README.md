@@ -12,3 +12,9 @@ It is a simple app for small convenience but is a great practice.
 
 1) Updated mess food section background
 2) Timetable now shows ongoing class in purple tint.
+
+# UPDATE THE APP TIME TABLE FOR YOUR OWN CLASS
+
+This app is opensource and you can change the app in whatever way you like.<br>
+To update the app time table with your class time table, clone this project, open it in Android Studio and change the 2D array in mainActivity2.java.<br>
+For any help regarding updating the app for your class, feel free to contact me, links in bio.
