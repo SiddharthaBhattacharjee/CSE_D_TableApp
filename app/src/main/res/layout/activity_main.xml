@@ -70,13 +70,12 @@
             android:textColor="@color/black"
             android:textSize="20sp" />
 
-        <ImageButton
+        <ImageView
             android:id="@+id/imageButton"
             android:layout_width="190dp"
             android:layout_height="190dp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/bg"
+            android:layout_marginTop="15dp"
             android:onClick="onClickFD"
             app:srcCompat="@drawable/icfd" />
 
