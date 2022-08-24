@@ -13,6 +13,18 @@ It is a simple app for small convenience but is a great practice.
 1) Updated mess food section background
 2) Timetable now shows ongoing class in purple tint.
 
+### V 1.1.0 Update Features:
+
+1) Updated the time table to the new sem 3 time table
+2) Updated Background color of the time table page.
+
+### V 1.1.1 Update Features:
+
+1) Fixed critical bug (created while testing of previous update)
+2) Fixed food icon in home screen.
+
+
+
 # UPDATE THE APP TIME TABLE FOR YOUR OWN CLASS
 
 This app is opensource and you can change the app in whatever way you like.<br>
