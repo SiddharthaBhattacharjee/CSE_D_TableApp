@@ -28,10 +28,10 @@ public class MainActivity2 extends AppCompatActivity {
     int nd;
     String[][] arr = {
             {"COA","ADE","Biology","Maths","FREE","FREE","FREE","FREE"},
-            {"COA (lab)","COA (lab)","ADE (lab)","ADE (lab)","VAC","VAC","Biology","Free"},
+            {"COA (Lab)","COA (Lab)","ADE (Lab)","ADE (Lab)","VAC","VAC","Biology","Free"},
             {"MPE","MPE","DSA","Maths","Maths","ADE","OOP","FREE"},
             {"Maths","OOP","COA","ADE","CSS","CSS","DSA","FREE"},
-            {"DSA","FREE","OOP","COA","DSA (lab)","DSA (lab)","OOP (lab)","OOP (lab)"},
+            {"DSA","FREE","OOP","COA","DSA (Lab)","DSA (Lab)","OOP (Lab)","OOP (Lab)"},
             {"FREE","FREE","FREE","FREE","FREE","FREE","FREE","FREE"},
             {"FREE","FREE","FREE","FREE","FREE","FREE","FREE","FREE"}
     };
@@ -65,8 +65,8 @@ public class MainActivity2 extends AppCompatActivity {
 
         Calendar calendar = Calendar.getInstance();
         int day = calendar.get(Calendar.DAY_OF_WEEK);
-
-        day = 3;
+        //test
+        //day = 3;
 
         switch (day) {
             case Calendar.SUNDAY:
@@ -113,6 +113,8 @@ public class MainActivity2 extends AppCompatActivity {
         int hour = calendar.get(Calendar.HOUR_OF_DAY);
         int minute = calendar.get(Calendar.MINUTE);
         int t = hour*60 + minute;
+        //test here
+//        t=560;
         resource = this.getResources();
         if(t>=480){
             Drawable TBDrawable = r1. getBackground();
@@ -283,6 +285,8 @@ public class MainActivity2 extends AppCompatActivity {
             int hour = calendar.get(Calendar.HOUR_OF_DAY);
             int minute = calendar.get(Calendar.MINUTE);
             int t = hour*60 + minute;
+            //test here
+//            t=560;
             if(t>=480){
                 Drawable TBDrawable = r1. getBackground();
                 TBDrawable = DrawableCompat. wrap(TBDrawable);
