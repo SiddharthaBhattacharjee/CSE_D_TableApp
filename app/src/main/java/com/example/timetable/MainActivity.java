@@ -37,10 +37,10 @@ public class MainActivity extends AppCompatActivity {
 
         {
             String currentDate = new SimpleDateFormat("dd-MM-yyyy", Locale.getDefault()).format(new Date(System.currentTimeMillis()));
-            String currentTime = new SimpleDateFormat("HH:mm", Locale.getDefault()).format(new Date(System.currentTimeMillis()));
+            String currentTime = new SimpleDateFormat("HH:mm:ss", Locale.getDefault()).format(new Date(System.currentTimeMillis()));
             dateTimeDisplay.setText("DATE : "+currentDate+"\nTIME : "+currentTime);
 
-            MainActivity.this.mHandler.postDelayed(m_Runnable,20000);
+            MainActivity.this.mHandler.postDelayed(m_Runnable,1000);
         }
 
     };

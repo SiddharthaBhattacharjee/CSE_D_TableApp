@@ -27,11 +27,11 @@ public class MainActivity2 extends AppCompatActivity {
     Resources resource;
     int nd;
     String[][] arr = {
-            {"APTI","APTI","VE","CHEM","MATHS","PPS","FREE","FREE"},
-            {"MATHS","CHEM","FREE","FREE","VAC","VAC","PPS (lab)","PPS (lab)"},
-            {"PPS","MATHS","CHEM","VE","LANG","LANG","WS","WS (till 4:30)"},
-            {"FREE","PPS","LANG","LANG","CHEM (lab)","CHEM (lab)","WS","WS"},
-            {"PPS (lab)","PPS (lab)","FREE","MATHS","NSO","NSO","CHEM","FREE"},
+            {"COA","ADE","Biology","Maths","FREE","FREE","FREE","FREE"},
+            {"COA (lab)","COA (lab)","ADE (lab)","ADE (lab)","VAC","VAC","Biology","Free"},
+            {"MPE","MPE","DSA","Maths","Maths","ADE","OOP","FREE"},
+            {"Maths","OOP","COA","ADE","CSS","CSS","DSA","FREE"},
+            {"DSA","FREE","OOP","COA","DSA (lab)","DSA (lab)","OOP (lab)","OOP (lab)"},
             {"FREE","FREE","FREE","FREE","FREE","FREE","FREE","FREE"},
             {"FREE","FREE","FREE","FREE","FREE","FREE","FREE","FREE"}
     };
@@ -65,6 +65,8 @@ public class MainActivity2 extends AppCompatActivity {
 
         Calendar calendar = Calendar.getInstance();
         int day = calendar.get(Calendar.DAY_OF_WEEK);
+
+        day = 3;
 
         switch (day) {
             case Calendar.SUNDAY:
