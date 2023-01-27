@@ -27,11 +27,11 @@ public class MainActivity2 extends AppCompatActivity {
     Resources resource;
     int nd;
     String[][] arr = {
-            {"COA","ADE","Biology","Maths","FREE","FREE","FREE","FREE"},
-            {"COA (Lab)","COA (Lab)","ADE (Lab)","ADE (Lab)","VAC","VAC","Biology","Free"},
-            {"MPE","MPE","DSA","Maths","Maths","ADE","OOP","FREE"},
-            {"Maths","OOP","COA","ADE","CSS","CSS","DSA","FREE"},
-            {"DSA","FREE","OOP","COA","DSA (Lab)","DSA (Lab)","OOP (Lab)","OOP (Lab)"},
+            {"SEPM - BMS 502","DAA - BMS 502","Maths - BMS 502","OS - BMS 502","VAC - BMS 502","VAC - BMS 502","APP - BMS 502","CC - BMS 502"},
+            {"APP (Lab - 7)","APP (Lab - 7)","SEPM (Lab - 8)","SEPM (Lab - 8)","SEPM - BMS 502","OS - BMS 502","Maths - BMS 502","DAA - BMS 502"},
+            {"CC - AD 301","APP - AD 301","DAA - AD 301","EVS - AD 301","CCTS - AD 202","CCTS - AD 202","OS - AD 202","SEPM - AD 202"},
+            {"Maths - AD 606","OS - AD 606","APP - AD 606","DAA - AD 606","OS (Lab - 4,5)","OS (Lab - 4,5)","DAA (Lab - 6)","DAA (Lab - 6)"},
+            {"CC(Lab - IOT/MP)","CC(Lab - IOT/MP)","CC - BMS 502","SEPM - BMS 502","Maths - BMS 502","APP - BMS 502","SE - BMS 502","SE - BMS 502"},
             {"FREE","FREE","FREE","FREE","FREE","FREE","FREE","FREE"},
             {"FREE","FREE","FREE","FREE","FREE","FREE","FREE","FREE"}
     };
