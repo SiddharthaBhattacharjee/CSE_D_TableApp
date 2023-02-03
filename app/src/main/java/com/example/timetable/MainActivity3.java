@@ -72,6 +72,30 @@ public class MainActivity3 extends AppCompatActivity {
         r10 = findViewById(R.id.r10);
         submit = findViewById(R.id.submitbutton);
 
+        SharedPreferences sh = getSharedPreferences("data",MODE_PRIVATE);
+
+        String st1 = sh.getString("0", "SEPM - BMS 502;DAA - BMS 502;Maths - BMS 502;OS - BMS 502;VAC - BMS 502;VAC - BMS 502;APP - BMS 502;CC - BMS 502");
+        String[] sta1 = st1.split(";");
+        String st2 = sh.getString("1", "APP (Lab - 7);APP (Lab - 7);SEPM (Lab - 8);SEPM (Lab - 8);SEPM - BMS 502;OS - BMS 502;Maths - BMS 502;DAA - BMS 502");
+        String[] sta2 = st2.split(";");
+        String st3 = sh.getString("2", "CC - AD 301;APP - AD 301;DAA - AD 301;EVS - AD 301;CCTS - AD 202;CCTS - AD 202;OS - AD 202;SEPM - AD 202");
+        String[] sta3 = st3.split(";");
+        String st4 = sh.getString("3", "Maths - AD 606;OS - AD 606;APP - AD 606;DAA - AD 606;OS (Lab - 4,5);OS (Lab - 4,5);DAA (Lab - 6);DAA (Lab - 6)");
+        String[] sta4 = st4.split(";");
+        String st5 = sh.getString("4", "CC(Lab - IOT/MP);CC(Lab - IOT/MP);CC - BMS 502;SEPM - BMS 502;Maths - BMS 502;APP - BMS 502;SE - BMS 502;SE - BMS 502");
+        String[] sta5 = st5.split(";");
+        String st6 = sh.getString("5", "FREE;FREE;FREE;FREE;FREE;FREE;FREE;FREE");
+        String[] sta6 = st6.split(";");
+        String st7 = sh.getString("6", "FREE;FREE;FREE;FREE;FREE;FREE;FREE;FREE");
+        String[] sta7 = st7.split(";");
+        arr[0] = sta1;
+        arr[1] = sta2;
+        arr[2] = sta3;
+        arr[3] = sta4;
+        arr[4] = sta5;
+        arr[5] = sta6;
+        arr[6] = sta7;
+
         Calendar calendar = Calendar.getInstance();
         day = calendar.get(Calendar.DAY_OF_WEEK);
         //test
@@ -254,7 +278,7 @@ public class MainActivity3 extends AppCompatActivity {
                 s6.setText(arr[nd][5]);
                 s7.setText(arr[nd][6]);
                 s8.setText(arr[nd][7]);
-
+                Toast.makeText(MainActivity3.this, "Make sure to save changes before going to next day!", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -276,6 +300,7 @@ public class MainActivity3 extends AppCompatActivity {
                 s6.setText(arr[nd][5]);
                 s7.setText(arr[nd][6]);
                 s8.setText(arr[nd][7]);
+                Toast.makeText(MainActivity3.this, "Make sure to save changes before going to next day!", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -283,20 +308,22 @@ public class MainActivity3 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // 0 monday -> 6 sunday in day
+                String sday = String.valueOf(nd);
+                String arr1 = "";
+                arr1 = arr1 + s1.getText().toString();
+                arr1= arr1 + ";" + s2.getText().toString();
+                arr1 = arr1 + ";" + s3.getText().toString();
+                arr1 = arr1 + ";" + s4.getText().toString();
+                arr1 = arr1 + ";" + s5.getText().toString();
+                arr1 = arr1 + ";" + s6.getText().toString();
+                arr1 = arr1 + ";" + s7.getText().toString();
+                arr1 = arr1 + ";" + s8.getText().toString();
+                String[] temp = arr1.split(";");
+                arr[nd] = temp;
 
-                String sday = String.valueOf(day);
-                String arr = "";
-                arr = arr + s1.getText().toString();
-                arr = arr + ";" + s2.getText().toString();
-                arr = arr + ";" + s3.getText().toString();
-                arr = arr + ";" + s4.getText().toString();
-                arr = arr + ";" + s5.getText().toString();
-                arr = arr + ";" + s6.getText().toString();
-                arr = arr + ";" + s7.getText().toString();
-                arr = arr + ";" + s8.getText().toString();
                 SharedPreferences sp = getSharedPreferences("data",MODE_PRIVATE);
                 SharedPreferences.Editor ed = sp.edit();
-                ed.putString(sday,arr);
+                ed.putString(sday,arr1);
                 ed.apply();
                 Toast.makeText(MainActivity3.this, "Data Updated Successfully", Toast.LENGTH_SHORT).show();
             }

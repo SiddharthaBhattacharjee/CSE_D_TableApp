@@ -21,28 +21,52 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <TextView
-            android:id="@+id/textView"
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:background="#34131313"
+            android:backgroundTint="#1C1A1A"
+            android:orientation="horizontal"
+            android:text="TimeTables">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="171dp"
+                android:layout_height="88dp"
+                app:srcCompat="@drawable/srmicon" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="6dp"
+                android:fontFamily="@font/adamina"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="TimeTables"
+                android:textColor="@color/design_default_color_on_secondary"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/divider13"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:fontFamily="@font/aclonica"
-            android:gravity="center"
-            android:text="CSE-D TABLES"
-            android:textColor="@color/design_default_color_on_secondary"
-            android:textSize="24sp"
-            android:textStyle="bold" />
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
 
         <TextView
             android:id="@+id/textView62"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:fontFamily="@font/aclonica"
             android:gravity="center"
             android:text="TIME : 00:00 \nDATE : 00/00/0000"
             android:textColor="@color/design_default_color_error"
-            android:textSize="24sp"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
         <View
@@ -56,7 +80,7 @@
             android:layout_width="190dp"
             android:layout_height="190dp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="10dp"
             android:onClick="onClickTT"
             app:srcCompat="@drawable/ictt" />
 
@@ -75,7 +99,7 @@
             android:layout_width="190dp"
             android:layout_height="190dp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="10dp"
             android:onClick="onClickFD"
             app:srcCompat="@drawable/editicon" />
 
@@ -88,5 +112,13 @@
             android:text="Edit TimeTable"
             android:textColor="@color/black"
             android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="This app was created by Siddhartha Bhattacharjee (Reg No. RA2111003020195) of CSE-D, connect with me on twitter @Siddhartha_2345 or email me at siddharthabhatt2345@gmail.com"
+            android:textAlignment="center" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

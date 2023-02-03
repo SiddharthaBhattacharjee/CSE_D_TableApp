@@ -66,19 +66,19 @@ public class MainActivity2 extends AppCompatActivity {
 
         SharedPreferences sh = getSharedPreferences("data",MODE_PRIVATE);
 
-        String st1 = sh.getString("0", "NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL");
+        String st1 = sh.getString("0", "SEPM - BMS 502;DAA - BMS 502;Maths - BMS 502;OS - BMS 502;VAC - BMS 502;VAC - BMS 502;APP - BMS 502;CC - BMS 502");
         String[] sta1 = st1.split(";");
-        String st2 = sh.getString("1", "NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL");
+        String st2 = sh.getString("1", "APP (Lab - 7);APP (Lab - 7);SEPM (Lab - 8);SEPM (Lab - 8);SEPM - BMS 502;OS - BMS 502;Maths - BMS 502;DAA - BMS 502");
         String[] sta2 = st2.split(";");
-        String st3 = sh.getString("2", "NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL");
+        String st3 = sh.getString("2", "CC - AD 301;APP - AD 301;DAA - AD 301;EVS - AD 301;CCTS - AD 202;CCTS - AD 202;OS - AD 202;SEPM - AD 202");
         String[] sta3 = st3.split(";");
-        String st4 = sh.getString("3", "NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL");
+        String st4 = sh.getString("3", "Maths - AD 606;OS - AD 606;APP - AD 606;DAA - AD 606;OS (Lab - 4,5);OS (Lab - 4,5);DAA (Lab - 6);DAA (Lab - 6)");
         String[] sta4 = st4.split(";");
-        String st5 = sh.getString("4", "NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL");
+        String st5 = sh.getString("4", "CC(Lab - IOT/MP);CC(Lab - IOT/MP);CC - BMS 502;SEPM - BMS 502;Maths - BMS 502;APP - BMS 502;SE - BMS 502;SE - BMS 502");
         String[] sta5 = st5.split(";");
-        String st6 = sh.getString("5", "NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL");
+        String st6 = sh.getString("5", "FREE;FREE;FREE;FREE;FREE;FREE;FREE;FREE");
         String[] sta6 = st6.split(";");
-        String st7 = sh.getString("6", "NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL");
+        String st7 = sh.getString("6", "FREE;FREE;FREE;FREE;FREE;FREE;FREE;FREE");
         String[] sta7 = st7.split(";");
         arr[0] = sta1;
         arr[1] = sta2;
