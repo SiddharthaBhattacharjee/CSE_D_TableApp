@@ -3,6 +3,7 @@ package com.example.timetable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.drawable.DrawableCompat;
 
+import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -63,10 +64,32 @@ public class MainActivity2 extends AppCompatActivity {
         r9 = findViewById(R.id.r9);
         r10 = findViewById(R.id.r10);
 
+        SharedPreferences sh = getSharedPreferences("data",MODE_PRIVATE);
+
+        String st1 = sh.getString("0", "NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL");
+        String[] sta1 = st1.split(";");
+        String st2 = sh.getString("1", "NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL");
+        String[] sta2 = st2.split(";");
+        String st3 = sh.getString("2", "NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL");
+        String[] sta3 = st3.split(";");
+        String st4 = sh.getString("3", "NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL");
+        String[] sta4 = st4.split(";");
+        String st5 = sh.getString("4", "NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL");
+        String[] sta5 = st5.split(";");
+        String st6 = sh.getString("5", "NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL");
+        String[] sta6 = st6.split(";");
+        String st7 = sh.getString("6", "NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL");
+        String[] sta7 = st7.split(";");
+        arr[0] = sta1;
+        arr[1] = sta2;
+        arr[2] = sta3;
+        arr[3] = sta4;
+        arr[4] = sta5;
+        arr[5] = sta6;
+        arr[6] = sta7;
+
         Calendar calendar = Calendar.getInstance();
         int day = calendar.get(Calendar.DAY_OF_WEEK);
-        //test
-        //day = 3;
 
         switch (day) {
             case Calendar.SUNDAY:

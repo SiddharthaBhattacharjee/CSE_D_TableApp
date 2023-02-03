@@ -77,7 +77,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="15dp"
             android:onClick="onClickFD"
-            app:srcCompat="@drawable/icfd" />
+            app:srcCompat="@drawable/editicon" />
 
         <TextView
             android:id="@+id/textView3"
@@ -85,7 +85,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/aclonica"
             android:gravity="center"
-            android:text="Mess Food"
+            android:text="Edit TimeTable"
             android:textColor="@color/black"
             android:textSize="20sp" />
     </LinearLayout>
