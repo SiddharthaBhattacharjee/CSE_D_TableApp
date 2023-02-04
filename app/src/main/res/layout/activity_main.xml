@@ -119,6 +119,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="This app was created by Siddhartha Bhattacharjee (Reg No. RA2111003020195) of CSE-D, connect with me on twitter @Siddhartha_2345 or email me at siddharthabhatt2345@gmail.com"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textColor="@color/black" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
