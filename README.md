@@ -30,8 +30,6 @@ It is a simple app for small convenience but is a great practice.
 3) This app can now be used by any class without needing to edit the code, this is the final feature update.
 
 
-# UPDATE THE APP TIME TABLE FOR YOUR OWN CLASS
+# USE APP TIME TABLE FOR YOUR OWN CLASS
 
-This app is opensource and you can change the app in whatever way you like.<br>
-To update the app time table with your class time table, clone this project, open it in Android Studio and change the 2D array in mainActivity2.java.<br>
-For any help regarding updating the app for your class, feel free to contact me, links in bio.
+Just download the apk file from this repository, install it on your android device and edit the schedule according to your need.
