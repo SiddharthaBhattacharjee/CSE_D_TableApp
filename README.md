@@ -23,6 +23,11 @@ It is a simple app for small convenience but is a great practice.
 1) Fixed critical bug (created while testing of previous update)
 2) Fixed food icon in home screen.
 
+### V 1.2.0 Update Features:
+
+1) Removed Food Chart.
+2) Added Edit Schedule option, now it is possible to edit the class schedules in the app.
+3) This app can now be used by any class without needing to edit the code, this is the final feature update.
 
 
 # UPDATE THE APP TIME TABLE FOR YOUR OWN CLASS
